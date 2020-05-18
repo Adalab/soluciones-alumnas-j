@@ -50,5 +50,3 @@ Estos son los repos de las anteriores promociones, pero hay que tener en cuenta 
 - https://github.com/Adalab/soluciones-alumnas-c
 
 :)
-
-Prueba Zapier 1
