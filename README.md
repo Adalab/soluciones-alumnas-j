@@ -8,7 +8,7 @@ En este repo tenéis que dejar vuestras soluciones a los ejercicios del temario,
 
 - Cuando tengamos un nuevo ejercicio lo submimos a una rama de este repo.
 - Si ya estuviese resuelto en un codepen lo pasamos a archivos siguiendo nuestra estructura de trabajo.
-- A continuación avisamos por el canal de Slack #promo-i-todas que tenemos un nuevo ejercicio indicando la rama.
+- A continuación avisamos por el canal de Slack #promo-j-programación que tenemos un nuevo ejercicio indicando la rama.
 - Proponemos a una compañera para que lo compruebe y haya una segunda validación. En el módulo 2 veremos las Pull Request, un gran sistema para revisar y validar los ejercicios.
 - Cuando la compañera nos de el OK, lo mergeamos a master. Recuerda que quien valida NO ejecuta el merge, sino que avisa a la compañera que subió la rama para que con el OK dado ejecute ella.
 - Si alguien no tiene permisos para subir código a este repo se lo pedimos a las profesoras o a alguna compañera que sí tenga permisos (las profesoras os daremos permisos de administración).
