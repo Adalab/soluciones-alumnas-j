@@ -1,0 +1,38 @@
+body {
+    margin: 10px 30px;
+  }
+  .col {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .box {
+    border: 1px solid deeppink;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .box--1 {
+    /*
+    color de fondo: cyan
+    */
+    background-color: cyan;
+  }
+  .box--2 {
+    /*
+    imagen de fondo: https://www.fillmurray.com/130/130
+    */
+    background-image: url(https://www.fillmurray.com/130/130);
+  }
+  .box--3 {
+    /*
+    color de fondo: cyan
+    imagen de fondo: https://www.fillmurray.com/110/110
+    La imagen tiene que aparecer centrada y sin que se repita
+    */
+    background: cyan url(https://www.fillmurray.com/110/110) center no-repeat ;
+  
+  }
