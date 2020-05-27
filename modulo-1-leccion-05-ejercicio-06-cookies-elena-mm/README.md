@@ -2,8 +2,6 @@
 
 ### 
 
-Todas las cajas aparecen centradas en el medio de la ventana del navegador. Su posición es absoluta, con lo que están posicionadas relativas a la ventana del navegador. 
-
 ![image-20200527210719020](img/image-20200527210719020.png)
 
 ---
