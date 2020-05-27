@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento: Ejercicio 5</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        /* OPCION 1: Cajas centradas todas en el medio de la pantalla y posicionadas absolutas relativas al browser window */
+        /* div {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .yellow {
+            height: 500px;
+            width: 500px;
+            background-color: yellow;
+            padding: 40px;
+            border: solid 2px gold;
+        }
+
+        .green {
+            height: 300px;
+            width: 300px;
+            background-color: green;
+            padding: 75px;
+        }
+
+        .blue {
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            border: solid 20px turquoise;
+        } */
+
+
+
+        /* OPCION 2: Cajas verde y azul (div2 & div3) se posicionan en el centro de la caja amarilla (div1) mediante posición absoluta
+        */
+
+        /* Definimos las cajas */
+        .yellow {
+            height: 500px;
+            width: 500px;
+            background-color: yellow;
+            padding: 40px;
+            border: solid 2px gold;
+        }
+
+        .green {
+            height: 300px;
+            width: 300px;
+            background-color: green;
+            padding: 75px;
+        }
+
+        .blue {
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            border: solid 20px turquoise;
+        }
+
+        /* Todas las cajas que no sean la amarilla, tendrán posición absoluta y se colocarán en el centro de la amarilla. (Esto tb se puede hacer poniendo estas propiedades por separado en .green y .blue pero con este selector ponemos menos código) */
+        div:not(.yellow) {
+            position: absolute;
+            left: 250px;
+            top: 250px;
+            transform: translate(-50%, -50%);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+</body>
+</html>
