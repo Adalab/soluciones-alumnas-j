@@ -18,11 +18,11 @@ Para la primera opción partimos de la siguiente estructura:
   <nav></nav>
   <main>
   	<article>
-    	<h2>Artículo</h2>
-      <p></p>
-      <div class="orange"></div>
+      <h2>Artículo</h2>
+      <p>Texto</p>
+      <div class="orange">Caja naranja</div>
     </article>
-    <aside></aside>
+    <aside>Related</aside>
   </main>
 </div>
 ```
