@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Quitar márgenes y padding por defecto */
+html, body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+}
+
+/* Añadir top & bottom padding de los títulos */
+h1, h2, h3 {
+    padding: .5rem 0 2rem;
+}
+
+/* Quitar bullet points de la lista de links */
+ul {
+    list-style-type: none;
+}
+
+/* Definir estilos de nav, article y aside */
+nav {
+    background-color: greenyellow;
+    margin: 0;
+}
+
+article {
+    background-color: gold;
+
+}
+
+aside {
+    background-color: gray;
+    margin-top: 2rem;
+}
+
+/* Nuestro contenedor flex principal; lo activaré luego */
+.container {
+    margin: 2rem 2.5rem;
+    background-color: lightgrey;
+    font-size: 1.6rem;
+    /* Padding para que el contenedor sobresalga por debajo del <aside> */
+    padding-bottom: 2rem;
+}
+
+/* Cuadrado naranja. No se va a ver porque no tiene height */
+.orange {
+    background-color: orange;
+}
+
+/* Versión Tablet */
+@media all and (min-width:480px) {
+
+
+    html {
+        /* Disminuimos tamaño de todo */
+        font-size: 11px;
+    }
+
+    /* Activo contenedor flex principal */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    /* Determinar las anchuras en % de los elementos flex */
+    nav {
+        width: 30%;
+        max-width: 20rem;
+    }
+
+    main {
+        width: 68%;
+        margin: auto;
+    }
+
+    article {
+        /* Activar contenedor flex */
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+    }
+
+    /* Hacer que títulos ocupen tooooda la fila */
+    h1, h2 {
+        width: 100%;
+    }
+
+    aside {
+        margin-top: 0;
+    }
+
+    /* Determinar anchuras en % de los elementos flex del article */
+    article > p {
+        flex: 3 1 60%;
+    } 
+    .orange {
+        max-width: 25rem;
+        flex: 1 1 40%;
+        /* Al darle un height, ahora aparece en la pantalla */
+        height: 15rem;
+    }
+}
+
+/* Versión desktop */
+@media all and (min-width:1000px) {
+
+    html {
+        /* Disminuimos todas las font un poquito más*/
+        font-size: 10px;
+    }
+
+    /* Ajustar tamaños y márgenes de flex items */
+    .container {
+        justify-content: space-between;
+    }
+
+    nav {
+        width: 15%;
+    }
+
+    article {
+        width: 80%;
+        margin-right: 2rem;
+    }
+
+    main {
+        width: 83%;
+        /* Activar tercer contenedor flex, para separar article y aside */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0;
+        margin-left: 2%;
+    }
+
+    aside {
+        width: 20%;
+        margin: 0;
+        margin-left: auto;
+    }
+}
