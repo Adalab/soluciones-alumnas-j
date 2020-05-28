@@ -12,20 +12,20 @@
 
 Para la primera opción partimos de la siguiente estructura:
 
-```html
-<div class="container">
-  <h1>Título</h1>
-  <nav></nav>
-  <main>
-  	<article>
-      <h2>Artículo</h2>
-      <p>Texto</p>
-      <div class="orange">Caja naranja</div>
-    </article>
-    <aside>Related</aside>
-  </main>
-</div>
-```
+
+- `<div class="container">`
+  - `<h1>`
+  - `<nav>`
+  - `<main>`
+  	- `<article>`
+      - `<h2>`
+      - `<p>`
+      - `<div class="orange">`
+    - `</article>`
+    - `<aside>`
+  - `</main>`
+- `</div>`
+
 
 Vamos a resolver el problema utilizando sólo **flexbox**. Para ello convertiremos en contenedores flex los siguientes elementos:
 
