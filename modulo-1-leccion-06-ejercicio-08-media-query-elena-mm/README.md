@@ -12,20 +12,20 @@
 
 Para la primera opción partimos de la siguiente estructura:
 
-
-- `<div class="container">`
-  - `<h1>`
-  - `<nav>`
-  - `<main>`
-  	- `<article>`
-      - `<h2>`
-      - `<p>`
-      - `<div class="orange">`
-    - `</article>`
-    - `<aside>`
-  - `</main>`
-- `</div>`
-
+```html
+<div class="container">
+  <h1>Título</h1>
+  <nav></nav>
+  <main>
+  	<article>
+    	<h2>Artículo</h2>
+      <p></p>
+      <div class="orange"></div>
+    </article>
+    <aside></aside>
+  </main>
+</div>
+```
 
 Vamos a resolver el problema utilizando sólo **flexbox**. Para ello convertiremos en contenedores flex los siguientes elementos:
 
@@ -108,10 +108,53 @@ main {
 
 ---
 
+## Opción 2: positions
+
+Podemos utilizar `position` para obtener resultados similares. Por ejemplo, en el artículo del main:
+
+![image-20200529180713612](img/image-20200529180713612.png)
+
+![image-20200529180727050](img/image-20200529180727050.png)
+
+Para ello, el artículo tiene una position de `relative` -> para poder poner al cuadrado una `position: absolute` (y que su posición, a pesar de llamarse "absoluta" 😡, sea relativa a la del parent (el artículo, con `position: relative`)).
+
+Una vez hecho esto sólo nos queda colocarlo al extremo derecho y un poco por debajo del top:
+
+```css
+article {
+  /* ... */
+  position: relative;
+}
+
+.cuadrado {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  /*...*/
+}
+```
+
+Nos quedaría repartir el espacio en porcentajes (relativos al parent, que es el article). En el ejemplo que he subido lo he repartido:
+
+```css
+p {
+  /* ... */
+  width:: 50%;
+}
+
+.cuadrado {
+  height: 40%;
+  width: 45%;
+  /*...*/
+}
+```
+
+---
+
 ### Otras opciones:
 
-1. Se podrían utilizar **floats**, especialmente util creo para el cuadrado naranja dentro del article. 
-2. Se podría prescindir de `<main>` de manera que las tres cajas principales (nav, article, aside) sean hermanas y sea más fácil colocarlas (además permite que los márgenes en la versión desktop sean iguales). Problema: En la versión tablet habría que utilizar quizá un posicionamiento absoluto para el `<aside>` para pegarlo justo debajo del `<article>` si no, ocuparía toda la fila.
+1. Se podrían utilizar **floats**, especialmente útil creo para el cuadrado naranja dentro del article. Si sois valientes como **Kayla Jean**, no dudéis en adentraros en el fabuloso y perturbador mundo de los floats 👺
+2. Se podría prescindir de `<main>` de manera que las tres cajas principales (nav, article, aside) sean hermanas y sea más fácil colocarlas (además permite que los márgenes en la versión desktop sean iguales). Problema: En la versión tablet habría que utilizar quizá un posicionamiento absoluto para el `<aside>` para pegarlo justo debajo del `<article>` si no, ocuparía toda la fila. Pero esto son divagaciones mías.
 
 ---
 
