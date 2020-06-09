@@ -1,0 +1,72 @@
+
+/* General styling */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(51, 143, 134);
+}
+
+button {
+    background-color: rgb(51, 143, 134);
+    width: 90%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* End of general styling */
+
+/* Container de todo el formulario, centrado horizontalmente y con margin-top */
+.container {
+    margin: 30px auto 0;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(223, 223, 223);
+}
+
+/* Cada form-item engloba al input y su label. Al ponerlo relativo, podemos poner al label posición absoluta con respecto de este form, lo que nos facilita posicionarlo dentro del input*/
+.form-item {
+    position: relative;
+    /* Puedes decomentar esta linea de borde para ver la caja del form-item */
+    /* border: solid 1px green; */
+}
+
+
+input {
+    /* para poder asignarle width tenemos que hacerlos inline-block/block */
+    display: inline-block;
+    width: 90%;
+
+    /* un poco de margen inferior (30px) para que nos quepa el label de password cuando suba arriba */
+    margin: 0 auto 30px;
+    line-height: 2.5;
+}
+
+label {
+    /* Posicionarlo dentro del input */
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    color: rgb(156, 156, 156);
+
+    /* Animación del label */
+    transition: all 0.5s ease;
+}
+
+/* Cuando hacemos focus en un input el siguiente sibling del input (~ = siguiente sibling), en este caso, el label, cambiará su estilo según lo que hemos puesto aquí */
+input:focus ~ label {
+    /* posicionamiento encima del input (con respecto al form-item) */
+    top: -20px;
+    left: 30px;
+
+    /* Otros cambios */
+    font-size: 13px;
+    color: black;
+}
