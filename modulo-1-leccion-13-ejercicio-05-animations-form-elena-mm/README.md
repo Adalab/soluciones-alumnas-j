@@ -1,6 +1,6 @@
 # Animando el label de un formulario
 
-![Jun-09-2020 18-58-24](./images/Jun-09-2020 18-58-24.gif)
+![Jun-09-2020 18-58-24](./images/form.gif)
 
 En este ejercicio tenemos que animar un label para que primero aparezca dentro del input y hacer focus en el input se desplace arriba según el gif. 
 
