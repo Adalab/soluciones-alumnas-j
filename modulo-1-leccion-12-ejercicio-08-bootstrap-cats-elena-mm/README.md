@@ -2,7 +2,7 @@
 
 ![cats-page](./images/cats-page.gif)
 
-Para realizar este ejercicio he utilizado Bootstrap. Para utilizar el sistema de grid de Bootstrap tenemos que uilizar:
+Para realizar este ejercicio he utilizado Bootstrap. Para utilizar el sistema de grid de Bootstrap tenemos que utilizar:
 
 1. un contenedor: `container`, `container-fluid`
 2. filas: `row`
@@ -45,7 +45,7 @@ La sección gatitos tiene más mañana. Queremos lo siguiente:
 
 1. Que en versión **large** todas las imágenes aparezcan en la misma fila. Si una fila de Bootstrap tiene 12 columnas, haciendo una división sencillita, nos sale a que cada una tiene que ocupar **3** columnas, lo que se traduce en sintaxis de Bootstrap a: `col-lg-3`
 2. Que en versión **medium** aparezcan dos imágenes por fila. Siguiendo la misma lógica necesitaría cada una ocupar **6** columnas en medium, lo que se traduce en: `col-md-6`
-3. De la versión móvil no nos preocupamos, porque una vez que definimos el nº de columnas a ocupar en una determinada sección (ej. `md`, `lg`) , siempre que la pantalla se haga más pequeña que esa sección (ej. `sm`), **si no hemos definido cuántas columnas** para esa sección más pequeña, cada celda ocupará todas las columnas.
+3. De la versión móvil no nos preocupamos, porque una vez que definimos el nº de columnas a ocupar en una determinada sección (ej. `md`, `lg`) , siempre que la pantalla se haga más pequeña que esa sección (ej. `sm`), **si no hemos definimos cuántas columnas** queremos para esa sección más pequeña, cada celda ocupará todas las columnas.
 
 ---
 
