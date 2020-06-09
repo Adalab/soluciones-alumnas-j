@@ -1,0 +1,53 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Fin de estilos generales */
+
+
+/* Estilo del contenedor */
+ .container-fluid {
+     /* Quitar padding que viene por defecto en los contenedores fluid de Bootstrap */
+    padding: 0;
+}
+
+
+/* Header */
+.header {
+    background-color: turquoise;
+    color: white;
+    height: 400px;
+}
+
+.heading {
+    height: 100%;
+    padding-left: 20px;
+    /* Uso flex para centrar los títulos en la celda del header */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Sección gatitos */
+img {
+    width: 100%;
+    height: 100%;
+    /* Object-fit: cover hace que las imágenes ocupen todo el div contendor de imágenes pero no se deformen ya que hay una cuyas medidas son digerentes al resto */
+    object-fit: cover;
+}
+
+@media all and (min-width: 1200px) {
+    .heading {
+        text-align: center;
+        padding: 0;
+    }
+}
