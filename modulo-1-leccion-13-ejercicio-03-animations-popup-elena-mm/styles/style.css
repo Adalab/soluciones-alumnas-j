@@ -50,28 +50,6 @@ html, body {
 .container:hover .popup {
     /* Con la función calc calculamos lo que tiene que subir el elemento para posicionarse exactamente en el medio, puesto que no vale con sólo "-50vh" si no que a eso hay que sumarle la mitad del height del elemento. Esto se podría hacer con dos transforms, pero entonces transition no funciona como es esperado. */
     /* transform: translateY(calc(-50vh - 25px)); */
-
-    bottom: 50%;
-    transform: translateY(25px);
-
+    transform: translateY(calc(-50vh - 25px));
 
 }
-
-/* margin + transform 
-    Center element horizontally 
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto; 
-
-     Lo situamos exactamente debajo del borde inferior de la pantalla, por lo que le asignamos a este valor el propio height del elemento 
-    / bottom: -50px;
-    transition: all 5s ease;
-
-
-
-     Solución con margin 
-    margin: auto;
-    margin-top: 100vh;
-
-/* 
