@@ -1,0 +1,55 @@
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    /* que ocupen toda la height de la pantalla */
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* para ocultar el elemento cuando esté fuera de la pantalla */
+    overflow: hidden;
+}
+
+
+.container {
+    /* Que ocupe toda la pantalla */
+    height: 100%;
+    width: 100%;
+    border: 4px solid red;
+
+
+}
+
+.popup {
+    width: 150px;
+    height: 50px;
+    border: solid 1px rgb(122, 122, 122);
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    color: turquoise;
+    font-weight: bold;
+
+    /* Center element horizontally */
+    margin: auto;
+
+    /* Situar elemento debajo del borde inferior */
+    margin-top: 100vh;
+
+    /* Animación */
+    transition: all 5s ease;
+} 
+
+.container:hover .popup {
+    /* Podemos utilizar cal() para calcular exactamente 50vh + la mitad del height del elemento para que se quede justo en el centro o podemos utilizar dos propiedades que hacen lo mismo: */
+
+    /* Versión con calc */
+    margin-top: calc(50vh - 25px);
+
+    /* Versión que hace lo mismo que la de arriba que utiliza calc pero en dos pasos */
+    /* margin-top: 50vh;
+    transform: translateY(-25px);  */
+}
