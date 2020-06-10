@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+ }
+
+ .box .popup {
+    width: 200px;
+    border: 1px solid red;
+    background-color: aquamarine;
+    transform: translateY(100vh);
+    transition: all 1s linear;
+ }
+
+.box:hover .popup {
+    /*background-color: red;*/
+    transform: translateY(50%);
+}
+
