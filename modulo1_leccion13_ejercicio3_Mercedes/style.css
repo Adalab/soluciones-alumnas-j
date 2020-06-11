@@ -1,0 +1,22 @@
+.body{
+    display:flex;
+    align-items:flex-end;
+    width:100wh;
+    height:100vh;
+    justify-content:center;
+    background-color: lightskyblue;
+}
+.popup{
+    width:300px;
+    height:100px;
+    border:1px solid black;
+    transition-property: transform 2s;
+    transition-duration:2s;
+    text-align:center;
+    background-color:pink;
+    
+}
+.body:hover .popup{
+    transform: translate(0,-500px);
+
+}
