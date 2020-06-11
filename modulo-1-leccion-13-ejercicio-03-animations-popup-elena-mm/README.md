@@ -1,6 +1,22 @@
 # Popup animado al centro de la pantalla
 
-> **Notas**
+Este ejercicio lo he resuelto de 3 maneras diferentes:
+
+1. Utilizando posicionamientos:
+   - elemento normal `bottom` por debajo de la pantalla
+   - elemento en transición `bottom` a la mitad de la pantalla
+2. Utilizando `margin-top`
+   - elemento normal `margin-top` de `100vh` para que quede debajo de la pantalla + **corrección** con `translateY()`
+   - elemento en transición `margin-top: 50vh` para que quede a la mitad de la pantalla + **corrección** con `translateY()`
+3. Utilizando `translate`
+   - elemento normal posicionado con `absolute` debajo de la pantalla y centrado horizontalmente
+   - elemento en transición `transform: translateY()` utilizando `calc()` para calcular exactamente la distancia necesaria para llegar a la mitad de la pantalla
+
+---
+
+
+
+> **Notas sobre la opción 3, mi favorita ❤️**
 >
 > Para realizar este ejercicio he hecho lo siguiente:
 >
@@ -22,4 +38,13 @@
 >   Pero al poner posicionamientos en el estado `:hover` la animación se fastidiaba así que me he decidido por la función `calc()` 
 
  
+
+> **Nota interesante: translate()**
+>
+> En los ejercicios utilizo `translate(-25px)` o `translate(25px)` porque 25 es la mitad del elemento popu (`50px`) pero podríamos utilizar porcentajes en su lugar:
+>
+> - `translate(-50%)`
+> - `translate(50%)` 
+>
+> Ya que el porcentaje se refiere al elemento al que se le aplica el translate!
 

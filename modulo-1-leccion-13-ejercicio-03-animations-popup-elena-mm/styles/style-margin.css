@@ -4,6 +4,7 @@
 }
 html, body {
     margin: 0;
+    padding: 0;
     /* que ocupen toda la height de la pantalla */
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,23 +34,22 @@ html, body {
     font-weight: bold;
 
     /* Center element horizontally */
-    position: absolute;
-    left: 0;
-    right: 0;
     margin: auto;
-    bottom: -50px;
 
-    /* Lo situamos exactamente debajo del borde inferior de la pantalla, por lo que le asignamos a este valor el propio height del elemento */
-    /* bottom: -50px; */
+    /* Situar elemento debajo del borde inferior */
+    margin-top: 100vh;
+
+    /* Animación */
     transition: all 5s ease;
-
-
-
 } 
 
 .container:hover .popup {
-    /* Con la función calc calculamos lo que tiene que subir el elemento para posicionarse exactamente en el medio, puesto que no vale con sólo "-50vh" si no que a eso hay que sumarle la mitad del height del elemento. Esto se podría hacer con dos transforms, pero entonces transition no funciona como es esperado. */
-    /* transform: translateY(calc(-50vh - 25px)); */
-    transform: translateY(calc(-50vh - 25px));
+    /* Podemos utilizar cal() para calcular exactamente 50vh + la mitad del height del elemento para que se quede justo en el centro o podemos utilizar dos propiedades que hacen lo mismo: */
 
+    /* Versión con calc */
+    margin-top: calc(50vh - 25px);
+
+    /* Versión que hace lo mismo que la de arriba que utiliza calc pero en dos pasos */
+    /* margin-top: 50vh;
+    transform: translateY(-25px);  */
 }
