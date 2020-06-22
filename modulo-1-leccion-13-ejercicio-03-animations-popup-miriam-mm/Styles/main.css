@@ -18,6 +18,7 @@
 
  .box .popup {
     width: 200px;
+    height: 30px;
     border: 1px solid red;
     background-color: aquamarine;
     transform: translateY(100vh);
@@ -26,6 +27,6 @@
 
 .box:hover .popup {
     /*background-color: red;*/
-    transform: translateY(50%);
+    transform: translateY(0);
 }
 
