@@ -17,5 +17,5 @@ Además, al incorporar el ejercicio 6 he creado un **if statement** que nos devu
 
 Resultados en la condicional:
 
-![image-20200623105015448](/Users/elemarmar/Library/Application Support/typora-user-images/image-20200623105015448.png)
+![image-20200623105015448](./image-20200623105015448.png)
 
