@@ -116,9 +116,8 @@ Le puedes añadir un console.log en el último condicional que no es de bloqueo 
 
 
 DEATH 💀
-
-![Jun-27-2020 02-23-35](./Jun-27-2020 02-23-35.gif)
+![gif1](https://media.giphy.com/media/JqIpH2C5pseZQK82m3/giphy.gif)
 
 SUCCESS 🎉
 
-![Jun-27-2020 02-22-41](./Jun-27-2020 02-22-41.gif)
+![gif2](https://media.giphy.com/media/SWzdMFTbmFeVxBDpWf/giphy.gif)
