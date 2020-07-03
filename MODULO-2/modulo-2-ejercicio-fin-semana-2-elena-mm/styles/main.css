@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* TITULO */
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 101, 202);
+}
+
+/* LISTADO DE PRINCESAS */
+.user-list {
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+.princess-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.avatar__container {
+    max-width: 180px;
+    margin-right: 30px;
+}
+
+img {
+    width: 180px;
+}
+
+.friend {
+    background-color: rgba(132, 241, 241, 0.356);
+}
