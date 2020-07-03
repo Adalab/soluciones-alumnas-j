@@ -50,13 +50,13 @@ Para esta sección mejor mirar los comentarios que he hecho en el código.
 
 ## 4. Resultado
 
-![image-20200703153625583](/Users/elemarmar/Documents/Adalab/5. repositorios/soluciones/soluciones no subidas/modulo-2-practica-fin-de-semana-02-fetch/app/image-20200703153625583.png)
+![image-20200703153625583](./image-20200703153625583.png)
 
 
 
  Y pulsando sobre ellas:
 
-![image-20200703153718734](/Users/elemarmar/Documents/Adalab/5. repositorios/soluciones/soluciones no subidas/modulo-2-practica-fin-de-semana-02-fetch/app/image-20200703153718734.png)
+![image-20200703153718734](./image-20200703153718734.png)
 
 ---
 
