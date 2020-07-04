@@ -43,14 +43,3 @@ function uploadTheme() {
   console.log(colorTheme);
 }
 uploadTheme();
-
-/* function uploadTheme() {
-  const colorTheme = localStorage.getItem('colorTheme');
-  if (colorTheme === 'light') {
-    radioButtons[0].checked;
-  } else {
-    radioButtons[1].checked;
-  }
-  console.log(colorTheme);
-}
-uploadTheme(); */
