@@ -23,12 +23,3 @@ function uploadInfo() {
   paragraph.innerHTML = userName.value + ' ' + lastName.value;
 }
 uploadInfo();
-
-/* EJERCICIO 7 */
-/* if(savedInfo===''){
-  console.log("No hay datos en el lovalStorage")
-}else{
-  userName.value = savedInfo.name;
-  lastName.value = savedInfo.lastName;
-  paragraph.innerHTML = userName.value + ' ' + lastName.value;
-} */
