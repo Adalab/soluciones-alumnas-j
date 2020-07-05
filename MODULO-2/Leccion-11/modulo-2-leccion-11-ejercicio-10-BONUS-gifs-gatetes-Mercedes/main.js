@@ -2,7 +2,7 @@
 
 /* BONUS - EJERCICIO 10 - Dame gifs de gatetes */
 
-//Creo una duncion que se ejecuta al cargar la página y al clicar el boton.
+//Creo una funcion que se ejecuta al cargar la página y al clicar el boton.
 
 //En la documentacion de la api hay un apartado: "search by file type (gifs)" que nos explica como pedir solo gif
 function getCatGif(ev) {
