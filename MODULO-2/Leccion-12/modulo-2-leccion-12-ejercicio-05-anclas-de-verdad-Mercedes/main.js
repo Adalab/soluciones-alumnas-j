@@ -27,11 +27,9 @@ console.log(positionFin);
 
 function handleButtonClick(event) {
   event.preventDefault();
-  /* console.log('Click menu');
-  console.log(event.currentTarget); */
   if (event.currentTarget === buttonInicio) {
     window.scrollTo({
-      top: 150 - 190, //¿Cómo hacer sin meter números a fuego en top?
+      top: 150 - 190,
       behavior: 'smooth',
     });
   } else if (event.currentTarget === buttonMedio) {
