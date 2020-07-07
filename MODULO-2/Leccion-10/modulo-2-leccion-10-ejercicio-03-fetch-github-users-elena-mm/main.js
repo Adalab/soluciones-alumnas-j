@@ -44,6 +44,7 @@ function getUser() {
 
         // 3.3. Con el data que nos devuelve json, crear constantes que hagan referencia a img, párrafos, etc 
         .then(data => {
+            console.log(data);
             const img = document.querySelector('.avatar');
             const name = document.querySelector('.name');
             const numberRepositories = document.querySelector('.repositories');
