@@ -15,7 +15,7 @@ class MediaCard extends React.Component {
                           {this.props.name}
                         </p>
                         <p className="card__profile-date">
-                        {this.props.nadateme}
+                        {this.props.date}
                         </p>
                       </div>
                     </div>
