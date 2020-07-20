@@ -2,7 +2,7 @@
 
 > He metido los links de diferentes imágenes en constantes para dejar el código dentro del componente más limpio.
 
-```react
+```JSX
 const pic1URL = 'https://images.unsplash.com/photo-1595114720921-5a56692ed4ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60';
 const pic2URL = 'https://images.unsplash.com/photo-1595089911462-6d66664ca5c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60';
 const pic3URL = 'https://images.unsplash.com/photo-1595111714200-0d597e920388?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60';
@@ -53,7 +53,7 @@ class MediaList extends React.Component {
 
 > ⚠️ No utilizamos `render()` en componentes funcionales!
 
-```react
+```JSX
 const MediaList = () => {
   return (
     <ul>
@@ -100,19 +100,21 @@ Como siempre, he creado carpeta **components** y he metido ahí todos los compon
 
 **index.js**
 
-```react
+```JSX
 import App from './components/App';
 ```
 
 **App.js**
 
-```react
+```JSX
 import '../App.css';
 ```
 
 **Resultado**
 
-![image-20200719203355604](/Users/elenamartinezmarin/Library/Application Support/typora-user-images/image-20200719203355604.png)
+![image-20200719203355604](./image-20200719203355604.png)
+
+> 👉🏻 **Nota importante:** Aunque ponga "amable y agradable" en verdad Sandra es **súper** amable y **súper extra mega** agradable.
 
 —🦊 [EMM](https://github.com/elemarmar)
 

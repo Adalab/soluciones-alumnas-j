@@ -4,7 +4,7 @@ Parte interesante del código:
 
 **Item.js**:
 
-```react
+```JSX
 import React from 'react';
 // NO olvides importar Prop-types e INSTALARLO!
 import PropTypes from 'prop-types';

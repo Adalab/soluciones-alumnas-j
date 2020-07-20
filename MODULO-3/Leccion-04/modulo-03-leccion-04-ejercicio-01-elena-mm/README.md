@@ -6,7 +6,7 @@ Lógica de este ejercicio:
 
 2. la función que voy a aplicar en el método `map` es básicamente de retornar código JSX pero con la información de cada elemento del array inicial (`arrayOfItems`). La sintaxis queda así:
 
-   ```react
+   ```JSX
    const arrayOfItemsJSX = arrayOfItems.map(element => {
          return (
            <li>
@@ -52,7 +52,7 @@ Lógica de este ejercicio:
 
 Nos quedaría tal que así:
 
-```react
+```JSX
 
 class ItemList extends React.Component {
   render() {

@@ -1,8 +1,8 @@
-Este ejercicio parte del [ejercicio 1](link) Tan sólo tenemos que meter el codigo **JSX** en variables:
+Este ejercicio parte del [ejercicio 1](https://github.com/Adalab/soluciones-alumnas-j/tree/master/MODULO-3/Leccion-02/modulo-03-leccion-02-ejercicio-01-elena-mm) Tan sólo tenemos que meter el codigo **JSX** en variables:
 
 1. Dividimos nuestro código JSX en partes que podamos guardar en variables:
 
-```react
+```JSX
   const appProfile = (
     <div className="card__profile">
       <img className="card__image" src={picURL}/>
@@ -33,7 +33,7 @@ Este ejercicio parte del [ejercicio 1](link) Tan sólo tenemos que meter el codi
 
 2. Creamos `appRoot` que contendrá todo el contenido:
 
-```react
+```JSX
 
   const appRoot = (
     <div className="App">
@@ -48,7 +48,7 @@ Este ejercicio parte del [ejercicio 1](link) Tan sólo tenemos que meter el codi
 
 3. return con `appRoot`, que lo contiene todo de manera ordenada:
 
-```react
+```JSX
   return appRoot;
 ```
 
@@ -58,7 +58,7 @@ Este ejercicio parte del [ejercicio 1](link) Tan sólo tenemos que meter el codi
 
 Hemos pasado de esto:
 
-```react
+```JSX
 
 function App() {
   return (
@@ -90,7 +90,7 @@ function App() {
 
 A esto 🎉:
 
-```react
+```JSX
 function App() {
 
   const appProfile = (
