@@ -1,4 +1,4 @@
-![image-20200723141652025](/Users/elenamartinezmarin/Documents/Adalab/soluciones-alumnas-j/MODULO-3/Leccion-06/modulo-03-leccion-06-ejercicio-06-elena-mm/image-20200723141652025.png)
+![image-20200723141652025](./image-20200723141652025.png)
 
 **App.js**
 
