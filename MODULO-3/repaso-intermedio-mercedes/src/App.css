@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: mediumaquamarine;
+  font-family: 'Roboto', sans-serif;
+}
+.App {
+  text-align: center;
+}
+.activity {
+  background-color: oldlace;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+.activity__info {
+  text-align: left;
+}
+.activity__info__title {
+  color: mediumaquamarine;
+  padding-bottom: 10px;
+}
+.activity__info__titleList {
+  color: mediumaquamarine;
+  padding-bottom: 5px;
+}
+.activity__info__List {
+  column-count: 3;
+  margin: auto;
+}
+.fas {
+  color: mediumaquamarine;
+  font-size: 80px;
+  width: 100px;
+  text-align: center;
+  margin-right: 20px;
+}
+li {
+  list-style-type: none;
+  width: 130px;
+}
