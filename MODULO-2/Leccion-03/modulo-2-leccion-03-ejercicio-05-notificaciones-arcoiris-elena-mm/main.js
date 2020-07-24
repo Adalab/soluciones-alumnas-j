@@ -9,18 +9,18 @@ const text = document.querySelector('p');
 
 // si tiene clase success
 if (box.classList.contains('success')) {
-    title.innerHTML = 'CORRECTO';
-    text.innerHTML = 'Los datos son correctos';
+  title.innerHTML = 'CORRECTO';
+  text.innerHTML = 'Los datos son correctos';
 
-// si tiene clase warning
+  // si tiene clase warning
 } else if (box.classList.contains('warning')) {
-    title.innerHTML = 'AVISO';
-    text.innerHTML = 'Tenga cuidado';
+  title.innerHTML = 'AVISO';
+  text.innerHTML = 'Tenga cuidado';
 
-
-// si tiene clase error
-} else if (box.classList.contains('error')){
-    title.innerHTML = 'ERROR';
-    text.innerHTML = 'Ha surgido un error';
+  // si tiene clase error
+} else if (box.classList.contains('error')) {
+  title.innerHTML = 'ERROR';
+  text.innerHTML = 'Ha surgido un error';
 }
 
+// <3

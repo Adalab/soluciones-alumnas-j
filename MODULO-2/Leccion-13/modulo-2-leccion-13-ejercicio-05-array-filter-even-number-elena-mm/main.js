@@ -7,4 +7,6 @@ const pins = [2389, 2384, 2837, 5232, 8998];
 // Necesitamos:
 // utilizar el método filter()
 // una expresión de devuelva un valor boolean --> pin % 2 === 0 (¿Es nº par?)
-const evenPins = pins.filter(pin => pin % 2 === 0);
+const evenPins = pins.filter((pin) => pin % 2 === 0);
+
+// 🦊 EMM

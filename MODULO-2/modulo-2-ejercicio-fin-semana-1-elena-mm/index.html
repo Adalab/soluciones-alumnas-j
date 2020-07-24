@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login</title>
-  <link href="./style/main.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link href="./style/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form action="" method="POST">
+      <!-- User -->
+      <div class="wrapper-user">
+        <label for="user-name">Nombre</label>
+        <input type="text" name="user" id="user-name" class="js-user-name" />
+      </div>
 
-  <form action="" method="POST">
+      <!-- Password -->
+      <div class="wrapper-password">
+        <label for="email">Contraseña</label>
+        <input
+          type="password"
+          name="password"
+          id="user-password"
+          class="js-user-password"
+        />
+      </div>
 
-    <!-- User -->
-    <div class="wrapper-user">
-      <label for="user-name">Nombre</label>
-      <input type="text" name="user" id="user-name" class="js-user-name">
-    </div>
+      <!-- Hidden message -->
+      <p class="error-wrapper hidden" id="error-wrapper">
+        Alguno de los campos no es correcto
+      </p>
 
-    <!-- Password -->
-    <div class="wrapper-password">
-      <label for="email">Contraseña</label>
-      <input type="password" name="password" id="user-password" class="js-user-password">
-    </div>
-
-    <!-- Hidden message -->
-    <p class="error-wrapper hidden" id="error-wrapper">Alguno de los campos no es correcto</p>
-
-    <!-- Button -->
-    <button id="login-button" class="login-button js-login-button" type="button">Entrar</button>
-  </form>
-  <script src="./js/main.js" type="text/javascript"></script>
-</body>
-
+      <!-- Button -->
+      <button
+        id="login-button"
+        class="login-button js-login-button"
+        type="button"
+      >
+        Entrar
+      </button>
+    </form>
+    <script src="./js/main.js" type="text/javascript"></script>
+  </body>
 </html>
+
+<!-- <3 -->

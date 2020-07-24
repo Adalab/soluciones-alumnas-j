@@ -28,6 +28,4 @@ El esquema de resolución es:
    buttonSecond.addEventListener('click', handleButtonClick);
    ```
 
-   
-
-   
+   —🦊 [Elena *mm*](https://github.com/elemarmar) 

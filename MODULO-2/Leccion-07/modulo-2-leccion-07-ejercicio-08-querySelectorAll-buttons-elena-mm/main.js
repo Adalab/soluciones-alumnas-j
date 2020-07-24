@@ -5,10 +5,12 @@ const buttons = document.querySelectorAll('.btn');
 
 // Cramos la función handler que cambia el fondo
 function changeBackground(event) {
-    event.currentTarget.classList.toggle('alert');
+  event.currentTarget.classList.toggle('alert');
 }
 
 // Iteramos sobre todos los botones para añadirles a cada uno un event listener
 for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('click', changeBackground);
+  buttons[i].addEventListener('click', changeBackground);
 }
+
+// 🦊 EMM

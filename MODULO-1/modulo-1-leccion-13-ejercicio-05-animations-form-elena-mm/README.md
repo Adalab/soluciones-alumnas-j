@@ -53,3 +53,4 @@ label {
 >
 > 👉🏻 Si no hubiera puesto el label después del input en el html `input:focus ~ label` no habría funcionado pues `~` toma al **siguiente** hermano.
 
+​        —🦊 [Elena *mm*](https://github.com/elemarmar) 

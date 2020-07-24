@@ -74,3 +74,4 @@ Con esta información la sección de gatitos nos quedaría así:
 >
 > No hace falta que definamos `col-sm-12` porque el comportamiento por defecto de Bootstrap es que cuando no defines el nº de columnas a ocupar en un tamaño -> si es menor que uno ya definido, ocupará el total de columnas.
 
+​        —[Elena *mm*](https://github.com/elemarmar) 

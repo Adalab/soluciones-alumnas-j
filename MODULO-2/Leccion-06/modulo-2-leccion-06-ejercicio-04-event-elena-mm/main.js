@@ -10,3 +10,5 @@ const button = document.querySelector('.btn');
 
 // B. Versión arrow
 button.addEventListener('click', (event) => console.log(event));
+
+// 🦊 EMM

@@ -1,9 +1,8 @@
 img {
-    max-width: 100%;
-    height: auto;
-
+  max-width: 100%;
+  height: auto;
 }
 
 .image-container {
-    width: 200px;
+  width: 200px;
 }

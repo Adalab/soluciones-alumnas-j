@@ -1,52 +1,54 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    /* Fuente base 10px para que sea más fácil calcular los rem: sólo tenemos que dividir por 10 */
-    font-size: 10px;
+  /* Fuente base 10px para que sea más fácil calcular los rem: sólo tenemos que dividir por 10 */
+  font-size: 10px;
 }
 
 h1 {
-    font-size: 3.2rem; /* 32px */
-    font-weight: bold;
+  font-size: 3.2rem; /* 32px */
+  font-weight: bold;
 }
 
 p {
-    font-size: 1.8rem ; /* 18px */
-    line-height: 2.4rem; /* 24px */
+  font-size: 1.8rem; /* 18px */
+  line-height: 2.4rem; /* 24px */
 }
 
 .container {
-    margin: 0 2rem; /* 20px */
+  margin: 0 2rem; /* 20px */
 }
 
-@media all and (min-width:768px) {
-    h1 {
-        font-size: 2.8rem;
-    } 
+@media all and (min-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+  }
 
-    p {
-        font-size: 1.6rem;
-    }
-    .container {
-        margin: 3rem 4rem;
-    }
+  p {
+    font-size: 1.6rem;
+  }
+  .container {
+    margin: 3rem 4rem;
+  }
 }
 
-@media all and (min-width:1140px) {
-    h1 {
-        font-size: 4.2rem;
-    }
+@media all and (min-width: 1140px) {
+  h1 {
+    font-size: 4.2rem;
+  }
 
-    p {
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-    }
+  p {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
 
-    .container {
-        /* Cuando margin tiene sólo 3 valores estos corresponden a: top (19rem), right & left (auto) y bottom (0) */
-        margin: 19rem auto 0;
-        max-width: 75rem;
-    }
+  .container {
+    /* Cuando margin tiene sólo 3 valores estos corresponden a: top (19rem), right & left (auto) y bottom (0) */
+    margin: 19rem auto 0;
+    max-width: 75rem;
+  }
 }
+
+/* <3 */

@@ -6,5 +6,7 @@
 //  OR
 //  2. "let i = 0; i < 10" --->  'Voy por la vuelta ' + (i + 1)
 for (let i = 0; i < 10; i++) {
-    console.log('Voy por la vuelta ' + (i + 1));
-  }
+  console.log('Voy por la vuelta ' + (i + 1));
+}
+
+// 🦊 EMM

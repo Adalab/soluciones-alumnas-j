@@ -68,3 +68,4 @@ Había en el documento `.js` una variable predefinida, `let favorites = [];` per
 
 Si no se te pintan las princesas en la pantalla, prueba a abrir el ejercicio con Chrome ;) 
 
+🦊 — [Elena MM](https://github.com/elemarmar)

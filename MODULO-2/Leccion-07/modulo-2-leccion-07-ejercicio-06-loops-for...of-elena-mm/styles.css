@@ -1,5 +1,6 @@
-#book1, #book2 {
-    display: block;
-    width: 500px;
-    margin: 10px 0;
+#book1,
+#book2 {
+  display: block;
+  width: 500px;
+  margin: 10px 0;
 }

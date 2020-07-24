@@ -1,8 +1,8 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: aquamarine;
   display: flex;
   border-radius: 20px;
@@ -13,7 +13,7 @@ body{
   font-size: 14px;
 }
 
-.login-button{
+.login-button {
   margin-top: 15px;
   background: #2c97e2;
   border: none;
@@ -22,19 +22,19 @@ body{
   width: 100%;
 }
 
-input{
+input {
   width: 100%;
   padding: 5px;
 }
 
-form{
+form {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   min-width: 300px;
 }
 
-label{
+label {
   display: block;
   margin-top: 10px;
 }
@@ -43,6 +43,8 @@ label{
   color: red;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
+
+/* <3 */

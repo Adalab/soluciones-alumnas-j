@@ -6,3 +6,5 @@
 
 👉🏻 *Hay que tener en cuenta que habría que crear otro eventListener para cuando dejamos de hacer hover que desaparezca el segundo párrafo. Ahora mismo, cada vez que hacemos hover en el primer párrafo, se crea un párrafo nuevo.*
 
+   —🦊 [Elena *mm*](https://github.com/elemarmar) 
+
