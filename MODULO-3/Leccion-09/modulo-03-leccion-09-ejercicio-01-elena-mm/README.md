@@ -39,12 +39,12 @@ render() {
     	<input 
     		type="text" 
     		onChange={this.filterNumberListItems}/>
-			</label>
-		</form>
-			<ul>
+		</label>
+	</form>
+		<ul>
     		{this.state.numbersListItems}
-			</ul>
-		</div>
+		</ul>
+    </div>
 	);
 	}
 }
@@ -91,17 +91,17 @@ render() {
     	<form>
     		<label>
     		Introduce un número: 
-    	<input 
+    		<input 
     		type="text" 
     		onChange={this.filterNumberListItems}/>
-			</label>
-		</form>
-			<ul>
+		</label>
+	</form>
+		<ul>
     		{this.state.numbersListItems}
-			</ul>
-		</div>
-	);
-	}
+		</ul>
+    </div>
+    );
+    }
 }
 ```
 
