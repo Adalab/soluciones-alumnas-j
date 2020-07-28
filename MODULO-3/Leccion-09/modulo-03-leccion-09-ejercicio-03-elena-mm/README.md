@@ -2,7 +2,7 @@
 
 ![](https://media3.giphy.com/media/IgDC5yl5uyjKw/giphy.gif?cid=ecf05e47dada6943de1a948b48df40c040d93ae188283cac&rid=giphy.gif)
 
-Pues nada, que lo que piden ya lo hice en los ejercicios [1]() y [2]().
+Pues nada, que lo que piden ya lo hice en los ejercicios [1](https://github.com/Adalab/soluciones-alumnas-j/tree/master/MODULO-3/Leccion-09/modulo-03-leccion-09-ejercicio-01-elena-mm) y [2](https://github.com/Adalab/soluciones-alumnas-j/tree/master/MODULO-3/Leccion-09/modulo-03-leccion-09-ejercicio-02-elena-mm).
 
 Respecto a la pregunta **b)**: "*En el ejercicio anterior vamos a extraer un nuevo componente llamado `ColapsiblePalette`. ¿Dónde hay que poner el `key` ahora?*"
 
