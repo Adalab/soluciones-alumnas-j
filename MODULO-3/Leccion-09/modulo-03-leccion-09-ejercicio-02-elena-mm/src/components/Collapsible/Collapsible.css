@@ -1,0 +1,10 @@
+.collapsible {
+    display: flex;
+    border: solid 1px salmon;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collapsible-box {
+    background-color: rgb(255, 196, 189);
+}
