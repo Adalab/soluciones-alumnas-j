@@ -6,7 +6,6 @@ const ClubList = props => {
     const clubsArray = props.clubinfo;
     const clubsJSX = clubsArray.map(element => {
         return (
-
                 <Club 
                     name={element.name} 
                     icon={element.fa} 
