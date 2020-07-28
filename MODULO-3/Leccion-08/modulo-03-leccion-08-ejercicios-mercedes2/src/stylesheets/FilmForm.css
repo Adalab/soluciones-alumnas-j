@@ -1,0 +1,58 @@
+.film-form {
+  background-color: white;
+  width: 250px;
+  min-height: 300px;
+  margin: 0 50px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 lightgrey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.film-form input {
+  width: 200px;
+  padding: 5px;
+  color: darkcyan;
+  border: 1px solid darkcyan;
+  outline: none;
+}
+.film-form textarea {
+  width: 200px;
+  min-height: 100px;
+  padding: 5px;
+  color: darkcyan;
+  border-color: darkcyan;
+  outline: none;
+}
+
+.age label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+}
+.age input {
+  width: 20px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.gender label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+}
+.gender input {
+  width: 20px;
+  margin-right: 5px;
+  padding: 5px;
+}
+select {
+  color: darkcyan;
+  border-color: darkcyan;
+}
