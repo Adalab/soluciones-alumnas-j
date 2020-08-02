@@ -1,6 +1,7 @@
 import React from 'react';
 
 const FiltersByState = (props) => {
+  console.log(props.status);
   const handleChange = (ev) => {
     props.handleFilter({
       value: ev.target.value,
@@ -8,7 +9,22 @@ const FiltersByState = (props) => {
       checked: ev.target.checked,
     });
   };
-  console.log(props);
+  /* const statusElementFInd = props.status.find((state, index) => {
+    if (state === 'Running') {
+      return (
+        <label key={index} className='display-block'>
+          <input
+            type='checkbox'
+            name='state'
+            value={state}
+            onChange={handleChange}
+          />
+          {state}
+        </label>
+      );
+    }
+  }); */
+
   const statusElements = props.status.map((state, index) => {
     return (
       <label key={index} className='display-block'>
