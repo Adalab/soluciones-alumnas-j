@@ -1,14 +1,15 @@
 import React from 'react';
 
 const FiltersByName = (props) => {
-  // console.log(props.handleFilter);
+  // console.log(props);
   const handleChange = (ev) => {
-    // console.log(ev.type, ev.target.value); //Para probar cual se ejecuta antes de onChange={handleChange}, keyUp={handleChange} y keyDown={handleChange}
+    // console.log(ev);
     props.handleFilter({
       value: ev.target.value,
       key: 'name',
     });
   };
+
   return (
     <>
       <label className='form__label display-block' htmlFor='name'>

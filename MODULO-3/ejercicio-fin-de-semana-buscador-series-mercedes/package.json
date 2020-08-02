@@ -1,5 +1,5 @@
 {
-  "name": "modulo3-leccion10-linkedin",
+  "name": "modulo3-ej-fin-de-semana-series",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {

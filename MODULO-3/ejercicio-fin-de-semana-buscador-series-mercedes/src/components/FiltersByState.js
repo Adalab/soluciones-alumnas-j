@@ -1,36 +1,33 @@
 import React from 'react';
 
-const FiltersByCities = (props) => {
-  // console.log(props);
+const FiltersByState = (props) => {
   const handleChange = (ev) => {
     props.handleFilter({
       value: ev.target.value,
-      key: 'location',
+      key: 'status',
       checked: ev.target.checked,
     });
   };
-  const citiesElements = props.cities.map((city, index) => {
+  console.log(props);
+  const statusElements = props.status.map((state, index) => {
     return (
       <label key={index} className='display-block'>
         <input
           type='checkbox'
-          name='location'
-          value={city}
+          name='state'
+          value={state}
           onChange={handleChange}
         />
-        {city}
+        {state}
       </label>
     );
   });
   return (
     <>
-      <label className='form__label display-block' htmlFor='gender'>
-        Ciudad:
-      </label>
-
-      {citiesElements}
+      <label className='display-block'>Estado</label>
+      {statusElements}
     </>
   );
 };
 
-export default FiltersByCities;
+export default FiltersByState;
