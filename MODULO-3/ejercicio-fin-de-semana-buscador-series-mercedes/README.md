@@ -6,6 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Faltaría de resolver:
 
-1. Que el fetch coja la info desde el valor que introduzcamos en el `input`(cambiando "girls" por el valor del input)
-2. Que muestre la imagen por defecto cuando el valor de la imagen es `nul`
-3. Que sólo nos muestre un checkbox con el estado "running" o "ended"
+1. Que el **fetch** coja la info desde el valor que introduzcamos en el `input`(cambiando "girls" por el valor del input)
+2. Que muestre la **imagen por defecto** cuando el valor de la imagen es `null`
+3. Que nos muestre **un sólo checkbox** con el estado "running" o "ended"
